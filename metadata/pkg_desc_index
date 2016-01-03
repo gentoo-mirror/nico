@@ -1,3 +1,4 @@
+app-admin/pass_python_keyring 1.0: a pass-powered backend for Python Keyring Lib
 app-forensics/uncompyle 0.0.2: A Python 2.7 byte-code decompiler
-net-analyzer/masscan 1.0.1: TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
+net-analyzer/masscan 1.0.1 1.0.3: TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
 x11-plugins/pipe2pidgin 20130710: pipe something or send file to pidgin recipients
