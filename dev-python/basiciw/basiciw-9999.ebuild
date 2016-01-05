@@ -7,13 +7,14 @@ EAPI=5
 PYTHON_COMPAT=( python{3_2,3_3,3_4} )
 inherit distutils-r1 git-r3
 
-DESCRIPTION="Python wrapper around Dota2 WebAPI"
-HOMEPAGE="https://github.com/andrewsnowden/dota2py"
-EGIT_REPO_URI="https://github.com/andrewsnowden/dota2py.git"
+DESCRIPTION="Python wrapper for libiw"
+HOMEPAGE="https://github.com/enkore/basiciw/"
+EGIT_REPO_URI="https://github.com/enkore/basiciw.git"
 
-LICENSE="MIT"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64"
+IUSE=""
 
-DEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+DEPEND=""
 RDEPEND="${DEPEND}"

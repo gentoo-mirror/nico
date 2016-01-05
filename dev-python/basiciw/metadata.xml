@@ -2,6 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription lang="en">
-		A thin wrapper around the Dota 2 WebAPI
+		basiciw is a simple Python extension module using
+		libiw to get info about wireless interfaces.
 	</longdescription>
 </pkgmetadata>
