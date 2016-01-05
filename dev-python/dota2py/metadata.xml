@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		A minimalistic (but aiming to be comprehensive) library used to interact
+		with Dota 2's (Defense of the Ancients) WebAPI.
+	</longdescription>
+</pkgmetadata>
