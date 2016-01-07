@@ -1,6 +1,6 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -21,6 +21,5 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="net-im/pidgin[dbus]
-		 virtual/python-argparse"
+		 virtual/python-argparse[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}"
-

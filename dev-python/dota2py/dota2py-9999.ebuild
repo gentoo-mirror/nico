@@ -14,6 +14,7 @@ EGIT_REPO_URI="https://github.com/andrewsnowden/dota2py.git"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
