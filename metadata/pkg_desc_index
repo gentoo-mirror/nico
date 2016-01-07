@@ -1,7 +1,7 @@
 app-admin/pass_python_keyring 1.0: a pass-powered backend for Python Keyring Lib
 app-forensics/uncompyle 0.0.2: A Python 2.7 byte-code decompiler
 dev-python/basiciw 9999: Python wrapper for libiw
-dev-python/colour 0.1.2 0.1.2-r1: Color representations manipulation library (RGB, HSL, web, ...)
+dev-python/colour 0.1.2-r1: Color representations manipulation library (RGB, HSL, web, ...)
 dev-python/dota2py 9999: Python wrapper around Dota2 WebAPI
 dev-python/pywapi 0.3.8: Python wrapper around multiple weather APIs
 net-analyzer/masscan 1.0.1 1.0.3: TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
