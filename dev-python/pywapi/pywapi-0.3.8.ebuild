@@ -17,9 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 
-RDEPEND=""
-DEPEND="${RDEPEND}"
-
 python_install_all() {
 	use examples && local EXAMPLES=( examples/. )
 	distutils-r1_python_install_all
