@@ -6,7 +6,6 @@
 		<name>Nico Suhl</name>
 	</maintainer>
 	<longdescription lang="en">
-		A pass-powered backend for Python Keyring LibA pass-powered backend for
-		Python Keyring Lib
+		A pass-powered backend for the Python Keyring Lib
 	</longdescription>
 </pkgmetadata>
