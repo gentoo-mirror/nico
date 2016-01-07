@@ -4,5 +4,4 @@ dev-python/basiciw 9999: Python wrapper for libiw
 dev-python/colour 0.1.2-r1: Color representations manipulation library (RGB, HSL, web, ...)
 dev-python/dota2py 9999: Python wrapper around Dota2 WebAPI
 dev-python/pywapi 0.3.8: Python wrapper around multiple weather APIs
-net-analyzer/masscan 1.0.1 1.0.3: TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
 x11-plugins/pipe2pidgin 20130710: pipe something or send file to pidgin recipients
