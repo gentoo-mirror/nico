@@ -5,19 +5,17 @@
 EAPI=5
 
 PYTHON_COMPAT=( python{3_2,3_3,3_4} )
-
-inherit python-r1
+inherit distutils-r1
 
 DESCRIPTION="Color representations manipulation library (RGB, HSL, web, ...)"
 HOMEPAGE="https://github.com/vaab/colour"
-SRC_URI="https://github.com/vaab/${PN}/archive/${PV}.tar.gz"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
-REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-src_install() {
-	python_foreach_impl python_domodule ${PN}.py
-}
+DEPEND="dev-python/d2to1"
+
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"

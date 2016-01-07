@@ -16,6 +16,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples"
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 python_install_all() {
 	use examples && local EXAMPLES=( examples/. )

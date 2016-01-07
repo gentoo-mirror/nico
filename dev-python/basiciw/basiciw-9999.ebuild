@@ -15,6 +15,7 @@ LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="net-wireless/wireless-tools"
 RDEPEND="${DEPEND}"
