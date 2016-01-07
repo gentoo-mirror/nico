@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>nico@overninethousand.de</email>
+		<name>Nico Suhl</name>
+	</maintainer>
+	<longdescription lang="en">
+		A pass-powered backend for Python Keyring LibA pass-powered backend for
+		Python Keyring Lib
+	</longdescription>
+</pkgmetadata>

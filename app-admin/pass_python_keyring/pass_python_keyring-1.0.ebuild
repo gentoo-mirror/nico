@@ -1,10 +1,10 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
-PYTHON_COMPAT=( python{2_6,2_7} python{3_2,3_3} pypy pypy2_0)
+PYTHON_COMPAT=( python{2_7,3_2,3_3} pypy pypy2_0)
 
 inherit distutils-r1
 
@@ -25,4 +25,3 @@ pkg_postinst() {
 	einfo "mkdir -pv \`python -c \"import keyring.util.platform_; print(keyring.util.platform_.config_root())\"\`"
 	einfo "echo -e \"[backend]\\\\ndefault-keyring=pass.Keyring\" > \`python -c \"import keyring.util.platform_; print(keyring.util.platform_.config_root())\"\`/keyringrc.cfg"
 }
-
