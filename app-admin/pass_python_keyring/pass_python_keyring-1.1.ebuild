@@ -12,7 +12,7 @@ DESCRIPTION="a pass-powered backend for Python Keyring Lib"
 HOMEPAGE="https://github.com/notandy/pass_python_keyring"
 SRC_URI="https://github.com/notandy/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="( MIT PSF-2.4 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
