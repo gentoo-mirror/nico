@@ -1,4 +1,4 @@
-app-admin/pass_python_keyring 1.0: a pass-powered backend for Python Keyring Lib
+app-admin/pass_python_keyring 1.0 1.1: a pass-powered backend for Python Keyring Lib
 app-forensics/uncompyle 0.0.2: A Python 2.7 byte-code decompiler
 dev-python/basiciw 9999: Python wrapper for libiw
 dev-python/colour 0.1.2-r1: Color representations manipulation library (RGB, HSL, web, ...)
