@@ -32,6 +32,7 @@ src_unpack() {
 
 src_install() {
 	cp -Rp * "${D}"
-	newinitd "${FILESDIR}/${PN}.init.d" "${PN}"
+	newconfd "${FILESDIR}/${PN}.confd" "${PN}"
+	newinitd "${FILESDIR}/${PN}.initd" "${PN}"
 	fowners ${PN}:${PN} /var/log/${PN}
 }
