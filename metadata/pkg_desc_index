@@ -1,6 +1,7 @@
 app-admin/pass_python_keyring 1.0 1.1: a pass-powered backend for Python Keyring Lib
 app-forensics/uncompyle 0.0.2: A Python 2.7 byte-code decompiler
 dev-db/influxdb 1.1.4: Scalable datastore for metrics, events, and real-time analytics
+dev-db/telegraf 1.2.1: A plugin-driven server agent for reporting metrics into InfluxDB
 dev-python/basiciw 9999: Python wrapper for libiw
 dev-python/colour 0.1.2-r1: Color representations manipulation library (RGB, HSL, web, ...)
 dev-python/dota2py 9999: Python wrapper around Dota2 WebAPI
