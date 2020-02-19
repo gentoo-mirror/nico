@@ -6,7 +6,7 @@ EAPI=5
 
 PYTHON_COMPAT=( python2_7 )
 
-inherit distutils-r1 git-2
+inherit distutils-r1 git-3
 
 EGIT_REPO_URI="git://github.com/ekeih/pipe2pidgin.git"
 EGIT_COMMIT="12c6466e83"
