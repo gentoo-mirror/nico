@@ -1,6 +1,0 @@
-app-admin/pass-otp 1.0.0: A pass extension for managing one-time-password (OTP) tokens.
-app-admin/pass_python_keyring 1.0 1.1: a pass-powered backend for Python Keyring Lib
-app-editors/atom-bin 1.14.4 1.19.0 1.23.3: A hackable text editor for the 21st Century
-app-forensics/uncompyle 0.0.2: A Python 2.7 byte-code decompiler
-dev-db/influxdb 1.1.4: Scalable datastore for metrics, events, and real-time analytics
-dev-db/telegraf 1.2.1 1.2.1-r1 1.3.1: A plugin-driven server agent for reporting metrics into InfluxDB
